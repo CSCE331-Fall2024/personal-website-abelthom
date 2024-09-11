@@ -67,8 +67,11 @@ body{
   margin-top: 50px;
 }
 .pdf{
-  display: block;
-  margin: 0 auto;
+  float:right;
+  /* margin: 0 auto; */
+  width: 750px;
+  height: 500px;
+  padding-right: 250px;
 }
 .smallTitle{
   font-size: 15px; /* Adjust caption size */
