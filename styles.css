@@ -12,7 +12,8 @@ body{
 .profile{
   width: 300px;
   cursor: pointer;
-  padding-left: 20px;
+  /* padding-left: 20px; */
+  border-radius: 5%;
 }
 .content{
   color:aliceblue;
