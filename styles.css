@@ -37,7 +37,7 @@ body{
 }
 .content ul li a{ /*anchor tag*/
   text-decoration: none;
-  color: aliceblue;
+  color: rgb(239, 173, 74);
   text-transform: uppercase;
 }
 .Header {
