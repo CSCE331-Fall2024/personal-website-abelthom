@@ -37,7 +37,7 @@ body{
 }
 .content ul li a{ /*anchor tag*/
   text-decoration: none;
-  color: rgb(239, 173, 74);
+  color: rgb(244, 223, 86);
   text-transform: uppercase;
 }
 .Header {
@@ -58,7 +58,8 @@ body{
   font-size: 15px; 
   color: rgb(255, 255, 255);
   padding-left: 20px;
-  padding-right: 50px;
+  padding-right: 100px;
+  padding-left: 100px;
 }
 .technicalImage{
   width: 180px;
@@ -77,4 +78,11 @@ body{
   font-size: 15px; /* Adjust caption size */
   color: rgb(255, 255, 255); /* Adjust caption color */
   text-align:center;
+}
+.IOCM{
+  width: 35%;
+  height: 35%;
+   padding-left: 30px;
+  padding-right: 30px;
+  /*padding-top: 30px; */
 }
