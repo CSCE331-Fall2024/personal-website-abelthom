@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="styles.css" id="mainStyleSheet">
 </head>
-<div class="banner">
-  <div class="Header">
-    <h1>Abel Thomas</h1>
-  </div>
-  <div class="content">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="technical.html">Technical Projects</a></li>
-      <li><a href="qualifications.html">Qualifications</a></li>
-      <li><a href="Service.html">Service</a></li>
-      <li><a href="AI.html">AI-generated</a></li>
-    </ul> 
+<body>
+    <div class="banner">
+        <div class="Header">
+            <h1>Abel Thomas</h1>
+        </div>
+        <div class="content">
+            <ul>
+                <li>
+                    <div class="switch">
+                        <button id="switchStyle" onclick="toggleStyleSheet()">Switch Styles</button>
+                    </div>
+                </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="technical.html">Technical Projects</a></li>
+                <li><a href="qualifications.html">Qualifications</a></li>
+                <li><a href="Service.html">Service</a></li>
+                <li><a href="AI.html">AI-generated</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <img src="Profile.jpeg" class="profile" alt="Abel Thomas">
+            <div class="paragraph">
+                <h1>Howdy, welcome to my webpage!</h1>
+            </div>
+        </div>
     </div>
-    <div class = "container"> <!----aligns them all on same line-->
-      <image src = "Profile.jpeg" class = "profile" alt="Abel Thomas"></image>
-      <div class = "paragraph">
-      <h1>Howdy, welcome to my webpage!
-      </h1> 
-    </div>
-  </div>
-</div>
 
-
+    <!-- Link to the JavaScript file -->
+    <script src="functions.js"></script>
+</body>
 </html>

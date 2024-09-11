@@ -88,8 +88,8 @@ body{
   /*padding-top: 30px; */
 }
 .content ul li a:hover {
-  background-color: #e69f0681;
-  color: #f37e18;
+  background-color: rgb(244, 223, 86);
+  color: #131313;
 }
 a{
   color: inherit;

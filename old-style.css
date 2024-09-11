@@ -1,0 +1,133 @@
+body {
+    background-color: rgb(45, 45, 45); /* Keep the dark body background */
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b, #86a8e7, #91eae4); /* Multi-color gradient */
+    background-size: 300% 300%; /* Larger size for slow movement effect */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color: white; */
+}
+
+
+
+.profile {
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); /* Added shadow for depth */
+    
+}
+
+
+
+.content {
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content ul {
+    list-style: none;
+    padding: 0;
+    /* display: flex; */
+    gap: 20px;
+}
+
+.content ul li {
+    display: block;
+    margin-bottom: 20px; /* add spacing between items */
+}
+
+.content ul li a {
+    text-decoration: none;
+    color: #ffcf40;
+    text-transform: uppercase;
+    padding-right: 50px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover transition */
+}
+
+.content ul li a:hover {
+    background-color: rgba(239, 173, 74, 0.8);
+    color: white;
+}
+
+.Header {
+    font-size: 20px; /* Larger, clearer font */
+    color: #ffcf40;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Adds text shadow */
+    padding-left: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.paragraph {
+    font-size: 18px; 
+    color: #f1f1f1;
+    padding: 20px 80px;
+    /* text-align: justify; */
+}
+
+.technicalImage {
+    width: 200px;
+    margin: 50px auto;
+    display: block;
+}
+
+.pdf{
+    float:right;
+    /* margin: 0 auto; */
+    width: 750px;
+    height: 500px;
+    /* padding-right: 50px; */
+    aspect-ratio: 4 / 3;
+  }
+
+.smallTitle {
+    font-size: 18px;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.IOCM {
+    width: 35%;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+a {
+    color: inherit;
+}
+
+.switch {
+    background-color: #ffcf40;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.switch:hover {
+    background-color: #e6a100;
+    color: white;
+}
