@@ -18,7 +18,7 @@ body {
 .profile {
     width: 250px;
     border-radius: 50%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); /* Added shadow for depth */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); /*Added shadow for depth*/
     
 }
 
@@ -61,7 +61,7 @@ body {
 }
 
 .Header {
-    font-size: 20px; /* Larger, clearer font */
+    font-size: 15px; /* Larger, clearer font */
     color: #ffcf40;
     margin-bottom: 20px;
     text-align: center;
@@ -78,7 +78,7 @@ body {
 }
 
 .paragraph {
-    font-size: 18px; 
+    font-size: 15px; 
     color: #f1f1f1;
     padding: 20px 80px;
     /* text-align: justify; */
