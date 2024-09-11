@@ -17,8 +17,9 @@ body {
 
 .profile {
     width: 250px;
+    margin-right: 200px;
     border-radius: 5%;
-    padding-right: 20px;
+    /* padding-right: 20px; */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); /*Added shadow for depth*/
     
 }
@@ -37,6 +38,7 @@ body {
 .content ul {
     list-style: none;
     padding: 0;
+    text-align:center;
     /* display: flex; */
     gap: 20px;
 }
@@ -81,8 +83,10 @@ body {
     font-size: 15px; 
     color: #f1f1f1;
     /* padding: 20px 80px; */
-    padding-left: 20px;
-    padding-right: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin:20px 0px;
+    border: 15px solid rgb(255, 255, 255);
     /* text-align: justify; */
 }
 
@@ -95,8 +99,9 @@ body {
 .pdf{
     float:right;
     /* margin: 0 auto; */
-    width: 750px;
+    width: 500px;
     height: 500px;
+    margin-left: 30px;
     /* padding-right: 50px; */
     aspect-ratio: 4 / 3;
   }
@@ -107,11 +112,13 @@ body {
     text-align: center;
 }
 
-.IOCM {
-    width: 40%;
-    padding: 30px;
-    margin: 0 auto;
-}
+.IOCM{
+    width: 28%;
+    height: 28%;
+     padding-left: 30px;
+    padding-right: 30px;
+    /*padding-top: 30px; */
+  }
 
 a {
     color: inherit;
