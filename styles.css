@@ -42,7 +42,7 @@ body{
 }
 .Header {
   font-size: 20px; /* Adjust caption size */
-  color: rgb(255, 255, 255); /* Adjust caption color */
+  color: rgb(239, 173, 74); /* Adjust caption color */
   margin-top: 20px; /* Adds some space between image and caption */
   text-align:center;
   padding-top: 15px;
