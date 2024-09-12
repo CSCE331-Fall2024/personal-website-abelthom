@@ -20,14 +20,14 @@ body{
   width: 100%;
   /* margin: auto; */
   padding: 10px 0;
-  display: flex;
+  display: inline-block;
   /* align-items: center; aligns them all on same line */
   justify-content: space-between;
+  text-align: center;
 }
 .content ul{
   list-style: none;
   width: 100%;
-  text-align: center;
   padding-right: 0px;
 }
 .content ul li{
@@ -82,8 +82,8 @@ body{
   text-align:center;
 }
 .IOCM{
-  width: 28%;
-  height: 28%;
+  width: 31%;
+  height: 31%;
    padding-left: 30px;
   padding-right: 30px;
   /*padding-top: 30px; */
